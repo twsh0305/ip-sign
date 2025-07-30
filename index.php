@@ -19,7 +19,7 @@ require_once './vendor/autoload.php';
 // 1. 核心功能配置
 $config = [
     // Redis配置
-    'redis_enabled'      => true,          // 是否启用Redis缓存（true/false）
+    'redis_enabled'      => false,          // 是否启用Redis缓存（true/false）
     'redis_host'         => '127.0.0.1',   // Redis主机地址
     'redis_port'         => 6379,          // Redis端口
     'redis_password'     => '',            // Redis密码（无密码留空）
@@ -31,12 +31,12 @@ $config = [
     // IP归属地API配置
     'api' => [
         'gaode' => [
-            'enabled'    => true,           // 是否启用高德API
+            'enabled'    => false,           // 是否启用高德API
             'key'        => '',             // 高德API密钥（必填）
             'secret_key' => ''              // 高德Secret（非必填）
         ],
         'tencent' => [
-            'enabled'    => true,           // 是否启用腾讯API
+            'enabled'    => false,           // 是否启用腾讯API
             'key'        => '',             // 腾讯API密钥（必填）
             'secret_key' => ''              // 腾讯Secret（非必填）
         ],
