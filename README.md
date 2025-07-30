@@ -30,7 +30,7 @@ IP签名档显示归属地、日期、操作系统、IP地址。用于放在网�
 
 2024年5月21日：新增两种API，变为三种API轮询，直至查询到归属地，太平洋API无需配置KEY，直接部署也可用
 
-2025年7月30日：支持redis，需要手动开启，优化配置，支持get传入'os_version''os_name'
+2025年7月30日：支持redis，需要手动开启(依赖redis及PHPRedis扩展，请确认已经安装)，优化配置，支持get传入'os_version''os_name'
 
 ## 环境要求
 
@@ -49,14 +49,10 @@ IP签名档显示归属地、日期、操作系统、IP地址。用于放在网�
 
 修改index.php的内容
 
-47行和48填入高德申请的key
+代码有详细注释，作为一个辅助工具，所以没有后台可视化设置页面
 
-50和51行填入腾讯申请的key
-
-需使用自己的key，或删除其中内容
+API需使用自己的key，可手动或开关API
 
 高德apikey获取教程：[https://wxsnote.cn/2770.html](https://wxsnote.cn/2770.html)
 
 腾讯apikey获取教程：[https://wxsnote.cn/4819.html](https://wxsnote.cn/4819.html)
-
-200行后自定义背景，颜色，文字，字体等
