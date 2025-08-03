@@ -4,6 +4,9 @@
 
 修改自：[https://github.com/xhboke/IP](https://github.com/xhboke/IP)
 
+<img width="420" height="183" alt="image" src="https://github.com/user-attachments/assets/6b8f1cde-ec62-4e81-bd3c-9ec554392bfb" />
+
+
 ## 基本修改说明
 
 1.删除原有失效API
